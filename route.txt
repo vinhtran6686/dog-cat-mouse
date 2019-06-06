@@ -1,0 +1,25 @@
+git add
+git commit
+
+git log --- show tất cả các commit
+git show --- show ra chi tiết 1 trong số các commit
+git diff --- show ra tất cả những gì thay đổi của tất cả commit
+
+work directory --- là trạng thái khi vừa sửa file
+staging area  --- là khi đã git add
+git repository --- chứa những gì thay đổi 
+
+git checkout -- <file> --- lệnh undo tất cả những thay đổi
+git reset --- undo git add
+
+git branch --- xem các nhánh
+git checkout -b <branch> tạo 1 nhánh
+git checkout <branch> di chuyển tới nhánh được chọn
+git merge --- gộp vào nhánh chính (phải ở nhánh chính mới bắt đầu gộp nhánh nhỏ)
+git branch -D <branch> --- xóa 1 nhánh
+
+
+//để undo commit
+git reset --soft id    --- undo commit về staging area
+git reset --mixed id    --- undo commit về  work directory
+git reset --hard   --- undo cả commit (remove code là thay đổi)
