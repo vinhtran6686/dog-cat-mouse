@@ -25,4 +25,6 @@ git reset --mixed id    --- undo commit về  work directory
 git reset --hard   --- undo cả commit (remove code là thay đổi)
 //Nếu undo nhiều commit thì undo cả các commit mới nhất
 
-git revert 
+git revert id   --- bỏ 1 commit bất kỳ
+
+gitignore   --- để loại những file ko muốn commit
