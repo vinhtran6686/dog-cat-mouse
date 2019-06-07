@@ -1,9 +1,8 @@
-function mouse(name){
+function mouse(name) {
     this.name = name;
-    this.dead = false;
+    this.Dead = false
 }
-mouse.prototype.die = function(){
-    this.dead = true;
+mouse.prototype.die = function () {
+    this.Dead = true;
 }
-
 module.export = mouse;
