@@ -23,3 +23,6 @@ git branch -D <branch> --- xóa 1 nhánh
 git reset --soft id    --- undo commit về staging area
 git reset --mixed id    --- undo commit về  work directory
 git reset --hard   --- undo cả commit (remove code là thay đổi)
+//Nếu undo nhiều commit thì undo cả các commit mới nhất
+
+git revert 
