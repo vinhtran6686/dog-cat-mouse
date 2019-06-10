@@ -28,3 +28,6 @@ git reset --hard   --- undo cả commit (remove code là thay đổi)
 git revert id   --- bỏ 1 commit bất kỳ
 
 gitignore   --- để loại những file ko muốn commit
+
+git clone link --- clone source về
+git pull --- kéo code về
