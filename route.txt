@@ -31,3 +31,11 @@ gitignore   --- để loại những file ko muốn commit
 
 git clone link --- clone source về
 git pull --- kéo code về
+
+
+pull request
+1. Git checkout -b <feature/branch>
+2. Git push origin <branch>
+3. create a pull request on github
+4.review code
+5. merge to master
