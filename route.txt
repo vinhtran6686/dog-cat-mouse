@@ -42,3 +42,15 @@ pull request
     4.2 fetch branch into local to test offline (optional)
     4.3 approve the pull request
 5. merge to master
+
+
+resolve conflict
+
+method 1:
+    1. Using 'git rebase'
+    2. resolve conflict
+    3. Push again with -f
+method 2:
+    1.Merge updated master to feature branch
+    2. Resolve conflict
+    3. Commit and push
