@@ -8,4 +8,8 @@ mouse.prototype.die = function () {
 mouse.prototype.run = function () {
     console.log('Run');
 }
+mouse.prototype.sleep = function () {
+    console.log("sleeping...");
+}
+
 module.exports = mouse;
